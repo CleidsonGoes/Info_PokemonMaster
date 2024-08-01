@@ -1,5 +1,5 @@
 {
-  "ScreamTail": {
+  "Sygna Suit Nemona & ScreamTail": {
     "Info": {
       "Categoria": "Master Fair",
       "Tipo": "Fairy",
@@ -94,8 +94,8 @@
     "Passivas": [
       "Passiva mestre: fortalece o time 20% ataques físicos c/ 1 par de Paldea, 35% c/ 2 pares de Paldea, 50% c/ 3 pares de Paldea",
       "Passiva mestre: protege o time 25% dano de ataques físicos c/ 1 par de Paldea, 28% c/ 2 pares de Paldea, 31% c/ 3 pares de Paldea",  
-      "1/5a: ATK não reduz",
-      "1/5b: imune a paralisia",
+      "1/5: ATK não reduz",
+      "1/5: imune a paralisia",
       "2/5: imunidade a flinch",
       "3/5: aumenta +1PMUN quando é ativado clima, terreno e zona."
     ]
