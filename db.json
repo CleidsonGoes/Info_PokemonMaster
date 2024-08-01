@@ -1,0 +1,104 @@
+{
+  "ScreamTail": {
+    "Info": {
+      "Categoria": "Master Fair",
+      "Tipo": "Fairy",
+      "Fraqueza": "Poison",
+      "Função": "Strike Physical",
+      "Função Ex": "Sprint"
+    },
+    "Movimentos": {
+      "Ferocious Play Rough": {
+        "Tipo": "attack move",
+        "Categoria": "Físico",
+        "Força": 180,
+        "Medidor": 4,
+        "Alvo": "todos oponentes",
+        "Acurácia": "nunca erra",
+        "Efeitos": [
+          "Básico: ativa após o usuário usar qualquer movimento e não pode ser desativado",
+          "Básico: reduz do alvo -1ATK e -1DEF",
+          "Básico: força não reduz com múltiplos alvos",
+          "Passiva mestre: fortalece 20% ataques físicos; 35% +1aliado de Paldea; 50% +2aliados de Paldea",
+          "Passiva3: Acerto crítico",
+          "Passiva3: +1MG c/ golpe sucedido",
+          "2/5: 30% chance de carregar +1MG",
+          "2/5: restaura HP quando age durante dia ensolarado",
+          "3/5: fortalece durante dia ensolarado",
+          "3/5: reduz do alvo -1ATK e -1DEF quando ataque for sucedido durante dia ensolarado"
+        ]
+      },
+      "Booster Energy": {
+        "Tipo": "Item move",
+        "Categoria": "Status",
+        "PontoMovimento": 2,
+        "Alvo": "Si mesmo",
+        "Efeitos": [
+          "Básico: 2 vezes aumenta +1PMUN +1SMUN",
+          "Passiva1: 2 vezes aumenta +2PMUN",
+          "2/5: 30% chance restaura +1MP"
+        ]
+      },
+      "Sunny Day": {
+        "Tipo": "Status move",
+        "Categoria": "Status",
+        "Força": 0,
+        "Medidor": 2,
+        "PontoMovimento": 2,
+        "Alvo": "campo inteiro",
+        "Acurácia": "nunca erra",
+        "Efeitos": [
+          "Básico: 2 vezes cria dia ensolarado",
+          "Passiva1: 2 vezes aumenta +2PMUN",
+          "Passiva2: 2 vezes Reduz -1contagem sincronizada",
+          "Passiva2: 2 vezes Aplica Paldea Circle Physical para o time",
+          "2/5: imunidade a condição de status durante Paldea Circle Physical",
+          "2/5: acelera o MG durante dia ensolarado",
+          "2/5: imunidade a flinch, imunidade a confuse, imunidade a trapped, durante dia ensolarado",
+          "3/5: aplica movimento livre",
+          "3/5: 2 vezes aumenta +1PMUN"
+        ]
+      }, 
+      "Our Greatest Battle!": {
+        "Tipo": "Trainer move",
+        "Category": "Status",
+        "PontoMovimento": 1,
+        "Alvo": "Si mesmo",
+        "Efeitos": [
+          "Básico: Aumenta +6ATK",
+          "Básico: Aumenta +4SPD",
+          "2/5: 30% chance restaura +1MP",
+          "2/5: Aplica cura gradual"
+        ]
+      },
+      "Nicely Rampagey Play Rough": {
+        "Tipo": "sync move",
+        "Categoria": "Físico",
+        "Força": 250,
+        "Alvo": "um oponente",
+        "Acurácia": "nunca erra",
+        "Efeitos": [
+          "Passiva mestre: fortalece: 20% ataques físicos; 35% +1aliado de Paldea; 50% +2aliados de Paldea",
+          "Passiva3: Acerto crítico",
+          "Passiva3: +1MG c/ golpe sucedido",
+          "Ex: Acerta todos oponentes",
+          "ExRole: 1 vez reduz -3contagem sincronizada",
+          "3/5: fortalece +50",
+          "3/5: fortalece +50",
+          "3/5: restaura +1MP… INCOMPLETO",
+          "3/5: mais ATK mais força",
+          "3/5: mais força durante Paldea Circle Physical"
+        ]
+      }
+    },
+    "Passivas": [
+      "Passiva mestre: fortalece o time 20% ataques físicos c/ 1 par de Paldea, 35% c/ 2 pares de Paldea, 50% c/ 3 pares de Paldea",
+      "Passiva mestre: protege o time 25% dano de ataques físicos c/ 1 par de Paldea, 28% c/ 2 pares de Paldea, 31% c/ 3 pares de Paldea",  
+      "1/5a: ATK não reduz",
+      "1/5b: imune a paralisia",
+      "2/5: imunidade a flinch",
+      "3/5: aumenta +1PMUN quando é ativado clima, terreno e zona."
+    ]
+  }
+}
+  
