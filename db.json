@@ -1,136 +1,134 @@
 [
   {
-    "Sygna Suit Nemona & ScreamTail": {
-      "Info": {
-        "Classe": "Master Fair",
+    "Par": "Sygna Suit Nemona & ScreamTail",
+    "Info": {
+      "Classe": "Master Fair",
+      "Tipo": "Fairy",
+      "Fraqueza": "Poison",
+      "Função": "Strike Physical",
+      "Função Ex": "Sprint"
+    },
+    "Movimentos": {
+      "Ferocious Play Rough": {
+        "Classe": "attack move",
         "Tipo": "Fairy",
-        "Fraqueza": "Poison",
-        "Função": "Strike Physical",
-        "Função Ex": "Sprint"
+        "Categoria": "Físico",
+        "Força": 180,
+        "Medidor": 4,
+        "Alvo": "todos oponentes",
+        "Acurácia": "nunca erra",
+        "Efeitos": [
+          "Básico: ativa após o usuário usar qualquer movimento e não pode ser desativado",
+          "Básico: -1ATK e -1DEF do alvo",
+          "Básico: força não reduz com múltiplos alvos",
+          "Passiva mestre: mais forte 20%; 35% +1 aliado de Paldea; 50% +2 aliados de Paldea",
+          "Passiva3: Acerto crítico",
+          "Passiva3: +1MG quando acerta",
+          "2/5: 30% chance +1MG",
+          "2/5: restaura HP quando age durante dia ensolarado",
+          "3/5: fortalece durante dia ensolarado",
+          "3/5: -1ATK e -1DEF do alvo quando acerta durante dia ensolarado"
+        ]
       },
-      "Movimentos": {
-        "Ferocious Play Rough": {
-          "Classe": "attack move",
-          "Tipo": "Fairy",
-          "Categoria": "Físico",
-          "Força": 180,
-          "Medidor": 4,
-          "Alvo": "todos oponentes",
-          "Acurácia": "nunca erra",
-          "Efeitos": [
-            "Básico: ativa após o usuário usar qualquer movimento e não pode ser desativado",
-            "Básico: reduz do alvo -1ATK e -1DEF",
-            "Básico: força não reduz com múltiplos alvos",
-            "Passiva mestre: fortalece 20% ataques físicos; 35% +1aliado de Paldea; 50% +2aliados de Paldea",
-            "Passiva3: Acerto crítico",
-            "Passiva3: +1MG c/ golpe sucedido",
-            "2/5: 30% chance de carregar +1MG",
-            "2/5: restaura HP quando age durante dia ensolarado",
-            "3/5: fortalece durante dia ensolarado",
-            "3/5: reduz do alvo -1ATK e -1DEF quando ataque for sucedido durante dia ensolarado"
-          ]
-        },
-        "Booster Energy": {
-          "Classe": "Item move",
-          "Categoria": "Status",
-          "PontoMovimento": 2,
-          "Alvo": "Si mesmo",
-          "Efeitos": [
-            "Básico: 2 vezes aumenta +1PMUN e +1SMUN",
-            "Passiva1: 2 vezes aumenta +2PMUN",
-            "2/5: 30% chance restaura +1MP"
-          ]
-        },
-        "Sunny Day": {
-          "Classe": "Status move",
-          "Tipo": "Fire",
-          "Categoria": "Status",
-          "Força": 0,
-          "Medidor": 2,
-          "PontoMovimento": 2,
-          "Alvo": "campo inteiro",
-          "Acurácia": "nunca erra",
-          "Efeitos": [
-            "Básico: 2 vezes cria dia ensolarado",
-            "Passiva1: 2 vezes aumenta +2PMUN",
-            "Passiva2: 2 vezes Reduz -1contagem sincronizada",
-            "Passiva2: 2 vezes Aplica Paldea Circle Physical para o time",
-            "2/5: imunidade a condição de status durante Paldea Circle Physical",
-            "2/5: acelera o MG durante dia ensolarado",
-            "2/5: imunidade a flinch, imunidade a confuse, imunidade a trapped, durante dia ensolarado",
-            "3/5: aplica movimento livre",
-            "3/5: 2 vezes aumenta +1PMUN"
-          ]
-        }, 
-        "Our Greatest Battle!": {
-          "Classe": "Trainer move",
-          "Category": "Status",
-          "PontoMovimento": 1,
-          "Alvo": "Si mesmo",
-          "Efeitos": [
-            "Básico: Aumenta +6ATK",
-            "Básico: Aumenta +4SPD",
-            "2/5: 30% chance restaura +1MP",
-            "2/5: Aplica cura gradual"
-          ]
-        },
-        "Nicely Rampagey Play Rough": {
-          "Classe": "sync move",
-          "Tipo": "Fairy",
-          "Categoria": "Físico",
-          "Força": 250,
-          "Alvo": "um oponente",
-          "Acurácia": "nunca erra",
-          "Efeitos": [
-            "Passiva mestre: fortalece: 20% ataques físicos; 35% +1aliado de Paldea; 50% +2aliados de Paldea",
-            "Passiva3: Acerto crítico",
-            "Passiva3: +1MG c/ golpe sucedido",
-            "Ex: Acerta todos oponentes",
-            "ExRole: 1 vez reduz -3contagem sincronizada",
-            "3/5: fortalece +50",
-            "3/5: fortalece +50",
-            "3/5: restaura +1MP… INCOMPLETO",
-            "3/5: mais ATK mais força",
-            "3/5: mais força durante Paldea Circle Physical"
-          ]
-        }
+      "Booster Energy": {
+        "Classe": "Item move",
+        "Categoria": "Status",
+        "PontoMovimento": 2,
+        "Alvo": "Si mesmo",
+        "Efeitos": [
+          "Básico: 2 vezes +1PMUN e +1SMUN",
+          "Passiva1: 2 vezes +2PMUN",
+          "2/5: 30% chance restaura +1MP"
+        ]
       },
-      "Passivas": [
-        "Passiva mestre: fortalece o time 20% ataques físicos c/ 1 par de Paldea, 35% c/ 2 pares de Paldea, 50% c/ 3 pares de Paldea",
-        "Passiva mestre: protege o time 25% dano de ataques físicos c/ 1 par de Paldea, 28% c/ 2 pares de Paldea, 31% c/ 3 pares de Paldea",  
-        "1/5: ATK não reduz",
-        "1/5: imune a paralisia",
-        "2/5: imunidade a flinch",
-        "3/5: aumenta +1PMUN quando é ativado clima, terreno e zona."
-      ],
-      "Temas": [
-        "Fairy", "Paldea", "Rival", "Sygna Suit", "Champion"
-      ]
-    }
+      "Sunny Day": {
+        "Classe": "Status move",
+        "Tipo": "Fire",
+        "Categoria": "Status",
+        "Força": 0,
+        "Medidor": 2,
+        "PontoMovimento": 2,
+        "Alvo": "campo inteiro",
+        "Acurácia": "nunca erra",
+        "Efeitos": [
+          "Básico: 2 vezes cria dia ensolarado",
+          "Passiva1: 2 vezes +2PMUN",
+          "Passiva2: 2 vezes -1contagem sincronizada",
+          "Passiva2: 2 vezes Aplica Paldea Circle Physical para o time",
+          "2/5: imunidade a condição de status durante Paldea Circle Physical",
+          "2/5: acelera o MG durante dia ensolarado",
+          "2/5: imunidade a flinch, imunidade a confuse, imunidade a trap, durante dia ensolarado",
+          "3/5: aplica movimento livre",
+          "3/5: 2 vezes +1PMUN"
+        ]
+      }, 
+      "Our Greatest Battle!": {
+        "Classe": "Trainer move",
+        "Category": "Status",
+        "PontoMovimento": 1,
+        "Alvo": "Si mesmo",
+        "Efeitos": [
+          "Básico: Aumenta +6ATK",
+          "Básico: Aumenta +4SPD",
+          "2/5: 30% chance restaura +1MP",
+          "2/5: Aplica cura gradual"
+        ]
+      },
+      "Nicely Rampagey Play Rough": {
+        "Classe": "sync move",
+        "Tipo": "Fairy",
+        "Categoria": "Físico",
+        "Força": 250,
+        "Alvo": "um oponente",
+        "Acurácia": "nunca erra",
+        "Efeitos": [
+          "Passiva mestre: mais forte 20%; 35% +1 aliado de Paldea; 50% +2 aliados de Paldea",
+          "Passiva3: Acerto crítico",
+          "Passiva3: +1MG quando acerta",
+          "Ex: Acerta todos oponentes",
+          "ExRole: 1 vez reduz -3contagem sincronizada",
+          "3/5: fortalece +50",
+          "3/5: fortalece +50",
+          "3/5: restaura +1MP… INCOMPLETO",
+          "3/5: mais ATK mais força",
+          "3/5: mais força durante Paldea Circle Physical"
+        ]
+      }
+    },
+    "Passivas": [
+      "Passiva mestre: fortalece o time 20% ataques físicos; 35% +1 aliado de Paldea; 50% +2 aliados de Paldea",
+      "Passiva mestre: protege o time 25% dano de ataques físicos; 28% +1 aliado de Paldea, 31% +2 aliados de Paldea",  
+      "1/5: ATK não reduz",
+      "1/5: imunidade a paralyze",
+      "2/5: imunidade a flinch",
+      "3/5: +1PMUN quando é ativado clima, terreno e zona."
+    ],
+    "Temas": [
+      "Fairy", "Paldea", "Rival", "Sygna Suit", "Champion"
+    ]
   },
   {
-    "Gardenia (Summer 2024) and Dhelmise":{
-      "Info": {
-        "Classe": "Sazonal",
-        "tipo": "Ghost",
-        "Fraqueza": "Ice",
-        "Função": "Field",
-        "Função Ex": "Support"
-      },
-      "Movimentos": {
-        "Flash Cannon": {
-          "Classe": "attack move",
-          "Tipo": "Steel",
-          "Categoria": "Especial",
-          "Força": 118,
-          "Medidor": 3,
-          "Alvo": "um oponente",
-          "Acurácia": 100,
-          "Efeitos": [
-            "Básico: 10% chance reduz do alvo -1SDF",
-            "Básico: Ativa o movimento 'Summer Hues Shadow Ball'"
-          ]
-        }
+    "Par": "Gardenia (Summer 2024) and Dhelmise",
+    "Info": {
+      "Classe": "Sazonal",
+      "tipo": "Ghost",
+      "Fraqueza": "Ice",
+      "Função": "Field",
+      "Função Ex": "Support"
+    },
+    "Movimentos": {
+      "Flash Cannon": {
+        "Classe": "attack move",
+        "Tipo": "Steel",
+        "Categoria": "Especial",
+        "Força": 118,
+        "Medidor": 3,
+        "Alvo": "um oponente",
+        "Acurácia": 100,
+        "Efeitos": [
+          "Básico: 10% chance -1SDF do alvo",
+          "Básico: Ativa o movimento 'Summer Hues Shadow Ball'"
+        ]
       },
       "Metal Sound": {
         "Classe": "Status move",
@@ -145,7 +143,7 @@
           "Básico: Reduz do alvo -2SDF",
           "Básico: Ativa o movimento 'Summer Hues Shadow Ball'",
           "Passiva1: 1 vez aumenta para o time +2ATK ou +2DEF ou +2SAT ou +2SDF ou +2SPD ou +2ACC ou +2EVA",
-          "Passiva1: 1 vez Aumenta para o time +1SMUN",
+          "Passiva1: 1 vez +1SMUN para o time",
           "Passiva3: 1 vez ativa steel zone"
         ]
       },
@@ -159,11 +157,11 @@
         "Acurácia": "nunca erra",
         "Efeitos": [
           "Básico: ativa após o usuário usar qualquer movimento e não pode ser desativado",
-          "Básico: reduz dos alvos -1ATK e -1SAT",
-          "Básico: 20% chance reduz dos alvos -1SDF",
+          "Básico: -1ATK e -1SAT dos alvos",
+          "Básico: 20% chance -1SDF dos alvos",
           "Básico: 1 vez ativa ghost zone quando sucedido",
           "Passiva1: 1 vez aumenta para o time +2ATK ou +2DEF ou +2SAT ou +2SDF ou +2SPD ou +2ACC ou +2EVA",
-          "Passiva1: 1 vez Aumenta para o time +1SMUN"
+          "Passiva1: 1 vez +1SMUN para o time"
         ]
       },
       "I-I’m Not Afraid!":{
@@ -186,11 +184,119 @@
         "Efeitos": [
           "Ex: 1 vez ativa e extende ghost zone",
           "Passiva1: 1 vez aumenta para o time +2ATK ou +2DEF ou +2SAT ou +2SDF ou +2SPD ou +2ACC ou +2EVA",
-          "Passiva1: 1 vez Aumenta para o time +1SMUN",
+          "Passiva1: 1 vez +1SMUN para o time",
           "ExRole: 1 vez dobra o sync buff"
         ]
       }
-    }
+    },
+    "Passivas": [
+      ""
+    ],
+    "Temas": [
+      "Ghost", "Sinnoh", "Gym Leader", "Seasonal Outfit", "Nature Lover"
+    ]
+  },
+  {
+    "Par": "Bede (Champion) and Galarian Articuno",
+    "Info": {
+      "Classe": "Master Fair",
+      "tipo": "Psychic",
+      "Fraqueza": "Ghost",
+      "Função": "Support",
+      "Função Ex": "Sprint"
+    },
+    "Movimentos": {
+      "Freezing Glare": {
+        "Classe": "attack move",
+        "Tipo": "Psychic",
+        "Categoria": "Especial",
+        "Força": 163,
+        "Medidor": 4,
+        "Alvo": "um oponente",
+        "Acurácia": 100,
+        "Efeitos": [
+          "Básico: 10% chance de congelar o alvo",
+          "Passiva mestre: mais forte 10%; 20% +1 aliados de Galar; 30% +2 aliados de Galar",
+          "2/5: +2MG quando acerta alvo c/ confuse",
+          "2/5: 40% chance +1MG quando acerta;",
+          "2/5: 30% chance de congelar o alvo"
+        ]
+      },
+      "Confusion": {
+        "Classe": "attack move",
+        "Tipo": "Psychic",
+        "Categoria": "Especial",
+        "Força": 18,
+        "Medidor": 1,
+        "Alvo": "um oponente",
+        "Acurácia": 100,
+        "Efeitos": [
+          "Básico: 10% chance de causa confuse no alvo",
+          "Passiva mestre: mais forte 10%; 20% +1 aliados de Galar; 30% +2 aliados de Galar",
+          "2/5: +1MG quando acerta",
+          "2/5: 100% chance de causa confuse no alvo"
+        ]
+      },
+      "Intimidating Freezing Glare": {
+        "Classe": "attack move",
+        "Tipo": "Psychic",
+        "Categoria": "Especial",
+        "Força": 178,
+        "Medidor": 0,
+        "PontoMovimento": 1,
+        "Alvo": "todos oponentes",
+        "Acurácia": "nunca erra",
+        "Efeitos": [
+          "Básico: Ativa após a redução de 3 contagem do sync move depois desativa",
+          "Básico: 10% chance de congelar o alvo",
+          "Básico: +1DEF e +1SDF do time",
+          "Básico: Aplica movimento livre para o time",
+          "Passiva mestre: mais forte 10%; 20% +1 aliados de Galar; 30% +2 aliados de Galar",
+          "2/5: 30% chance de congelar o alvo"
+        ]
+      },
+      "Triumphant Tenacity!": {
+        "Classe": "Trainer move",
+        "Category": "Status",
+        "Medidor": 4,
+        "PontoMovimento": 2,
+        "Alvo": "todos aliados",
+        "Efeitos": [
+          "Básico: 2 vezes +2ATK e +2SAT e +2CRT do time",
+          "Básico: +1PMUN e +1SMUN do time"
+        ]
+      },
+      "Always Winning Freezing Glare": {
+        "Classe": "sync move",
+        "Tipo": "Psychic",
+        "Categoria": "Especial",
+        "Força": 262,
+        "Alvo": "um oponente",
+        "Acurácia": "nunca erra",
+        "Efeitos": [
+          "Passiva mestre: mais forte 10%; 20% +1 aliados de Galar; 30% +2 aliados de Galar",
+          "Passiva2: restaura +1MP dos seus movimentos",
+          "Ex: 1 vez dobra o sync buff",
+          "ExRole: 1 vez reduz -3contagem sincronizada"
+        ]
+      }
+    },
+    "Passivas": [
+      "Passiva mestre: fortalece movimentos do time 10%, 20% +1 par de Galar, 30% +2 pares de Galar",
+      "Passiva mestre: protege o time 20% dano de ataques, 23% +1 aliado de Galar, 26% +2 aliados de Galar",
+      "Passiva1: 1 vez -1contagem sincronizada na entrada",
+      "Passiva1: 1 vez +2SPD para o time na entrada",
+      "Passiva2: Restaura +1MP dos seus movimentos após qualquer sync move",
+      "Passiva3: imunidade a ataques críticos",
+      "1/5: imunidade a flinch",
+      "1/5: imunidade a frozen",
+      "2/5: 1 vez cura condição de status",
+      "2/5: 1 vez cura flinch, cura confuse, cura trap",
+      "2/5: 40% chance +2SPD quando acertado por movimento de ataque"
+    ],
+    "Temas": [
+      "Psychic", "Galar", "Champion", "Scarf", "Galar Adventurer"
+    ]
   }
 ]
   
