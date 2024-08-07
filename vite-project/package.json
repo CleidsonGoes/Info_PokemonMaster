@@ -1,5 +1,5 @@
 {
-  "name": "desafio-front-end",
+  "name": "pokemonmaster",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -27,5 +27,18 @@
     "eslint-plugin-react-refresh": "^0.4.6",
     "typescript": "^5.2.2",
     "vite": "^5.2.0"
-  }
+  },
+  "description": "# É necessário executar o comando \"npx json-server db.json\" para carregar os dados antes de executar o comando para rodar a aplicação",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CleidsonGoes/Info_PokemonMaster.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CleidsonGoes/Info_PokemonMaster/issues"
+  },
+  "homepage": "https://github.com/CleidsonGoes/Info_PokemonMaster#readme"
 }
