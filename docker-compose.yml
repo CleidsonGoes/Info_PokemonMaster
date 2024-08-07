@@ -1,7 +1,7 @@
 services:
   node:
-    image: node:16-alpine
-    container_name: review
+    image: node:20-alpine
+    container_name: pkmMaster
     ports:
       - "3000:3000"
     volumes: 
